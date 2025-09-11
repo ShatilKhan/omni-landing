@@ -45,9 +45,9 @@ export default function Features() {
           </div>
 
           {/* Items */}
-          <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-4">
+          <div className="mx-auto grid max-w-md gap-8 md:max-w-none md:grid-cols-2 lg:gap-x-12 lg:gap-y-16">
             {/* Security Services */}
-            <article className="col-span-2">
+            <article className="relative flex flex-col p-6 bg-gray-900/50 rounded-2xl backdrop-blur-sm">
               <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-indigo-500/10 p-3">
                 <svg
                   className="h-8 w-8 fill-indigo-500"
@@ -59,22 +59,26 @@ export default function Features() {
                 </svg>
               </div>
               <h3 className="mb-3 font-nacelle text-xl font-semibold text-gray-200">
-                Enhanced Security & E-KYC
+                E-KYC
               </h3>
-              <ul className="space-y-3 text-lg text-indigo-200/65">
+              <ul className="mt-2 space-y-3 text-base md:text-lg text-indigo-200/65">
                 <li className="flex items-start">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
+                  <span className="mr-3 mt-1.5 h-2.5 w-2.5 shrink-0 rounded-full border border-indigo-500"></span>
                   Biometric Fingerprint Matching
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
                   Fraud Prevention & Enhanced Security
                 </li>
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
+                  AI based persona identification
+                </li>
               </ul>
             </article>
 
             {/* AI Marketing */}
-            <article className="col-span-2">
+            <article className="relative flex flex-col p-6 bg-gray-900/50 rounded-2xl backdrop-blur-sm">
               <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-indigo-500/10 p-3">
                 <svg
                   className="h-8 w-8 fill-indigo-500"
@@ -94,26 +98,18 @@ export default function Features() {
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  Automated Social Media Responses
+                  Automated Social Media Management
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  Campaign Performance Analytics
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  Lead Generation
+                  AI based Lead Generation 
                 </li>
                 
-                <li className="flex items-start">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  Persona-Based Targeting & Automated Outreach
-                </li>
               </ul>
             </article>
 
             {/* Finance */}
-            <article className="col-span-2">
+            <article className="relative flex flex-col p-6 bg-gray-900/50 rounded-2xl backdrop-blur-sm">
               <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-indigo-500/10 p-3">
                 <svg
                   className="h-8 w-8 fill-indigo-500"
@@ -143,7 +139,7 @@ export default function Features() {
             </article>
 
             {/* Calling Solutions */}
-            <article className="col-span-2">
+            <article className="relative flex flex-col p-6 bg-gray-900/50 rounded-2xl backdrop-blur-sm">
               <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-indigo-500/10 p-3">
                 <svg
                   className="h-8 w-8 fill-indigo-500"
