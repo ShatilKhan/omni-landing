@@ -31,8 +31,8 @@ export default function Footer() {
                   <a href="tel:+8801623000792" className="hover:text-indigo-500 transition">+880 1623-000792</a>
                 </div>
                 <div className="text-sm text-indigo-200/65">
-                  <span className="font-medium text-gray-200">Our Offices</span><br />
-                  <span>Miami, USA 🇺🇸 | Dhaka, BD 🇧🇩</span>
+                  <span className="font-medium text-gray-200">Our Office</span><br />
+                  <span>House No. 432, Road 6, Avenue 5,Mirpur DOHS, Dhaka, Bangladesh</span>
                 </div>
               </div>
             </div>
