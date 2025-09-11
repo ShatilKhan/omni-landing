@@ -63,7 +63,7 @@ export default function Features() {
               </h3>
               <ul className="mt-2 space-y-3 text-base md:text-lg text-indigo-200/65">
                 <li className="flex items-start">
-                  <span className="mr-3 mt-1.5 h-2.5 w-2.5 shrink-0 rounded-full border border-indigo-500"></span>
+                  <span className="mr-2 mt-2 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
                   Biometric Fingerprint Matching
                 </li>
                 <li className="flex items-start">
