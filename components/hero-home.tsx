@@ -38,7 +38,6 @@ export default function HeroHome() {
                     </span>
                   </a>
                 </div>
-                
               </div>
             </div>
           </div>

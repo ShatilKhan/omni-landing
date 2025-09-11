@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Home - OmniZen",
+  title: "OmniZen",
   description: "Your Personal CFO",
 };
 
