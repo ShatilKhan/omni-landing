@@ -24,11 +24,11 @@ export default function Footer() {
               <div className="flex items-center gap-8">
                 <div className="text-sm text-indigo-200/65">
                   <span className="font-medium text-gray-200">Business</span><br />
-                  <a href="mailto:info@anchorblock.vc" className="hover:text-indigo-500 transition">info@anchorblock.vc</a>
+                  <a href="mailto:faruk@anchorblock.vc" className="hover:text-indigo-500 transition">faruk@anchorblock.vc</a>
                 </div>
                 <div className="text-sm text-indigo-200/65">
                   <span className="font-medium text-gray-200">Contact</span><br />
-                  <a href="tel:+8801740230313" className="hover:text-indigo-500 transition">+880 1740-230313</a>
+                  <a href="tel:+8801623000792" className="hover:text-indigo-500 transition">+880 1623-000792</a>
                 </div>
                 <div className="text-sm text-indigo-200/65">
                   <span className="font-medium text-gray-200">Our Offices</span><br />
