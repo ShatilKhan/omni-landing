@@ -8,6 +8,39 @@
   strategy: base;
 }
 
+@keyframes infinite-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-infinite-carousel {
+  animation: infinite-scroll 25s linear infinite;
+}
+
+.animate-infinite-carousel:hover {
+  animation-play-state: paused;
+}
+
+/* Add a mask for smooth fade effect on the edges */
+.overflow-hidden {
+  mask-image: linear-gradient(to right, 
+    transparent, 
+    black 10%, 
+    black 90%, 
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(to right, 
+    transparent, 
+    black 10%, 
+    black 90%, 
+    transparent 100%
+  );
+}
+
 @theme {
   --font-inter: var(--font-inter), sans-serif;
   --font-nacelle: var(--font-nacelle), sans-serif;
