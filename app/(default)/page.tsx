@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "Home - OmniZen",
+  description: "Your Personal CFO",
 };
 
 import PageIllustration from "@/components/page-illustration";
