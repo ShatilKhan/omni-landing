@@ -32,7 +32,7 @@ export default function Footer() {
                 </div>
                 <div className="text-sm text-indigo-200/65">
                   <span className="font-medium text-gray-200">Our Office</span><br />
-                  <span>House No. 432, Road 6, Avenue 5,Mirpur DOHS, Dhaka, Bangladesh</span>
+                  <span>House No. 432, Road 6, Avenue 5, Mirpur DOHS, Dhaka, Bangladesh</span>
                 </div>
               </div>
             </div>
