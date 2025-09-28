@@ -1,5 +1,4 @@
-import VideoThumb from "@/public/images/hero-image-01.jpg";
-import ModalVideo from "@/components/modal-video";
+
 
 export default function HeroHome() {
   return (
@@ -41,16 +40,19 @@ export default function HeroHome() {
               </div>
             </div>
           </div>
-
-          {/* <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={1104}
-            thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="videos//video.mp4"
-            videoWidth={1920}
-            videoHeight={1080}
-          /> */}
+          <div className="mx-auto max-w-6xl px-4 sm:px-6">
+            <div className="relative aspect-video w-full overflow-hidden rounded-2xl">
+              <iframe
+                className="absolute left-0 top-0 h-full w-full"
+                src="https://www.youtube.com/embed/Zc4kYMOsrTA?si=aLgv-jXNQQKKCxUq"
+                title="Omnizen Product Demo"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
