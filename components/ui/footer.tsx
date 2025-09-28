@@ -19,13 +19,13 @@ export default function Footer() {
           />
         </div>
           <div className="flex flex-col space-y-8">
-            <div className="flex items-center justify-between py-8 border-t border-gray-800/30">
-              <div className="flex items-center gap-12">
+            <div className="flex flex-col lg:flex-row lg:items-center justify-between py-8 border-t border-gray-800/30 space-y-8 lg:space-y-0">
+              <div className="flex flex-col lg:flex-row items-start lg:items-center gap-8 lg:gap-12">
                 <Logo />
-                <div className="flex items-center gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                   <div className="text-base text-indigo-200/65">
                     <span className="font-medium text-gray-200 text-lg mb-1 block">Business</span>
-                    <a href="mailto:faruk@anchorblock.vc" className="hover:text-indigo-500 transition">faruk@anchorblock.vc</a>
+                    <a href="mailto:faruk@anchorblock.vc" className="hover:text-indigo-500 transition break-all">faruk@anchorblock.vc</a>
                   </div>
                   <div className="text-base text-indigo-200/65">
                     <span className="font-medium text-gray-200 text-lg mb-1 block">Contact</span>
@@ -33,11 +33,11 @@ export default function Footer() {
                   </div>
                   <div className="text-base text-indigo-200/65">
                     <span className="font-medium text-gray-200 text-lg mb-1 block">Our Office</span>
-                    <span>House 432, Road 6, Avenue 5, Mirpur DOHS, Dhaka</span>
+                    <span className="inline-block">House 432, Road 6, Avenue 5, Mirpur DOHS, Dhaka</span>
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col items-end gap-4">
+              <div className="flex flex-col items-start lg:items-end gap-4">
                 <span className="font-medium text-gray-200 text-lg">Socials</span>
                 <ul className="flex items-center gap-6">
                   <li>
