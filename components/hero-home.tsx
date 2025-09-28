@@ -44,7 +44,7 @@ export default function HeroHome() {
             <div className="relative aspect-video w-full overflow-hidden rounded-2xl">
               <iframe
                 className="absolute left-0 top-0 h-full w-full"
-                src="https://www.youtube.com/embed/Zc4kYMOsrTA?si=aLgv-jXNQQKKCxUq"
+                src="https://www.youtube.com/embed/Zc4kYMOsrTA?si=aLgv-jXNQQKKCxUq?vq=hd720p"
                 title="Omnizen Product Demo"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
