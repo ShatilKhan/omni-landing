@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "OmniZen",
-  description: "Your Personal CFO",
+  title: "JaldiPay",
+  description: "Fast Money Transfers to Bangladesh",
 };
 
 import PageIllustration from "@/components/page-illustration";

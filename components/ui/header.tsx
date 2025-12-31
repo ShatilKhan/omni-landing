@@ -11,8 +11,8 @@ export default function Header() {
           {/* Site branding */}
           <div className="flex flex-1 items-center gap-2">
             <Logo />
-            <span className="text-lg font-medium bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-              OmniZen
+            <span className="text-lg font-medium bg-linear-to-r from-green-500 to-green-200 bg-clip-text text-transparent">
+              JaldiPay
             </span>
           </div>
 
