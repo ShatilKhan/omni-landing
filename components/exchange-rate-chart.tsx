@@ -209,7 +209,7 @@ export default function ExchangeRateChart() {
                 borderRadius: "8px",
                 fontSize: "12px",
               }}
-              formatter={(value: number) => [`${value.toFixed(3)} BDT`, "Rate"]}
+              formatter={(value) => [`${(value as number).toFixed(3)} BDT`, "Rate"]}
               labelFormatter={(label) => label}
             />
             <Area
