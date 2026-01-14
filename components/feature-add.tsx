@@ -34,12 +34,12 @@ export default function FeatureAdd() {
               Multiple deposit methods including crypto, bank transfer, bKash, and cards. Fund your account in seconds with minimal fees.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <a
+              {/* <a
                 href="https://cal.com/shatil-ab/30min"
                 className="inline-flex items-center rounded-full bg-[#0A3700] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#0A3700]/90"
               >
                 Get Started
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

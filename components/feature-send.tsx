@@ -21,12 +21,12 @@ export default function FeatureSend() {
             <p className="mt-6 text-gray-600 max-w-md">
               Experience hassle-free sending. Every transaction protected, every recipient just moments away.
             </p>
-            <a
+            {/* <a
               href="https://cal.com/shatil-ab/30min"
               className="mt-8 inline-flex items-center rounded-full bg-[#0A3700] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#0A3700]/90"
             >
               Learn more
-            </a>
+            </a> */}
           </div>
 
           {/* Right content - Phone Mockup with Screenshot */}
