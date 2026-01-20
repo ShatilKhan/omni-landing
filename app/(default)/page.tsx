@@ -1,25 +1,24 @@
 export const metadata = {
-  title: "OmniZen",
-  description: "Your Personal CFO",
+  title: "JaldiPay - Global Money Transfers",
+  description: "Fast, secure money transfers to 50+ countries including UAE, Singapore, Malaysia, and more.",
 };
 
-import PageIllustration from "@/components/page-illustration";
 import Hero from "@/components/hero-home";
-import Workflows from "@/components/workflows";
-import Features from "@/components/features";
-import Testimonials from "@/components/testimonials";
-import Partners from "@/components/partners";
-import Cta from "@/components/cta";
+import FeaturesHighlight from "@/components/features-highlight";
+import FeatureSend from "@/components/feature-send";
+import FeatureAdd from "@/components/feature-add";
+import Stats from "@/components/stats";
+import FAQ from "@/components/faq";
 
 export default function Home() {
   return (
     <>
-      <PageIllustration />
       <Hero />
-      <Partners />
-      {/* <Workflows /> */}
-      <Features />
-      <Cta />
+      <FeaturesHighlight />
+      <FeatureSend />
+      <FeatureAdd />
+      <Stats />
+      <FAQ />
     </>
   );
 }

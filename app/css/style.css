@@ -25,18 +25,18 @@
   animation-play-state: paused;
 }
 
-/* Add a mask for smooth fade effect on the edges */
-.overflow-hidden {
-  mask-image: linear-gradient(to right, 
-    transparent, 
-    black 10%, 
-    black 90%, 
+/* Add a mask for smooth fade effect on carousel edges only */
+.carousel-mask {
+  mask-image: linear-gradient(to right,
+    transparent,
+    black 10%,
+    black 90%,
     transparent 100%
   );
-  -webkit-mask-image: linear-gradient(to right, 
-    transparent, 
-    black 10%, 
-    black 90%, 
+  -webkit-mask-image: linear-gradient(to right,
+    transparent,
+    black 10%,
+    black 90%,
     transparent 100%
   );
 }

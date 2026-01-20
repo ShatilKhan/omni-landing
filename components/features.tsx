@@ -1,7 +1,6 @@
 import Image from "next/image";
 import BlurredShapeGray from "@/public/images/blurred-shape-gray.svg";
 import BlurredShape from "@/public/images/blurred-shape.svg";
-import FeaturesImage from "@/public/images/features.png";
 
 export default function Features() {
   return (
@@ -34,138 +33,130 @@ export default function Features() {
         <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1] md:py-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
-            <h2 className="h2 mb-4 text-3xl md:text-4xl font-bold bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
+            <h2 className="h2 mb-4 text-3xl md:text-4xl font-bold bg-linear-to-r from-green-500 to-green-200 bg-clip-text text-transparent">
               Our Services
             </h2>
-            <div className="inline-flex items-center gap-3 before:h-px before:w-12 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-12 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
-              <span className="text-lg text-gray-400">
-                Comprehensive AI Solutions for Business Growth
+            <div className="inline-flex items-center gap-3 before:h-px before:w-12 before:bg-linear-to-r before:from-transparent before:to-green-200/50 after:h-px after:w-12 after:bg-linear-to-l after:from-transparent after:to-green-200/50">
+              <span className="text-lg text-green-400">
+                Fast, Secure, and Transparent Money Transfers
               </span>
             </div>
           </div>
 
           {/* Items */}
           <div className="mx-auto grid max-w-md gap-8 md:max-w-none md:grid-cols-2 lg:gap-x-12 lg:gap-y-16">
-            {/* Security Services */}
+            {/* Instant Money Transfers */}
             <article className="relative flex flex-col p-6 bg-gray-900/50 rounded-2xl backdrop-blur-sm">
-              <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-indigo-500/10 p-3">
+              <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-green-500/10 p-3">
                 <svg
-                  className="h-8 w-8 fill-indigo-500"
+                  className="h-8 w-8 fill-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+                </svg>
+              </div>
+              <h3 className="mb-3 font-nacelle text-xl font-semibold text-gray-200">
+                Instant Money Transfers
+              </h3>
+              <p className="text-base text-green-200/65">
+                Send money instantly to over 50 countries. Our fast transfer system ensures your funds reach your family or business partners within minutes, not days.
+              </p>
+            </article>
+
+            {/* Send to Bank & Mobile Wallets */}
+            <article className="relative flex flex-col p-6 bg-gray-900/50 rounded-2xl backdrop-blur-sm">
+              <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-green-500/10 p-3">
+                <svg
+                  className="h-8 w-8 fill-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M19 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-5 9h-4v4h4v-4zm5-6h-5v4h5V5z"/>
+                </svg>
+              </div>
+              <h3 className="mb-3 font-nacelle text-xl font-semibold text-gray-200">
+                Bank Accounts & Mobile Wallets
+              </h3>
+              <p className="text-base text-green-200/65">
+                Send directly to bank accounts or popular mobile wallets in the destination country. Recipients can access funds instantly for their daily needs.
+              </p>
+            </article>
+
+            {/* Transparent Currency Exchange */}
+            <article className="relative flex flex-col p-6 bg-gray-900/50 rounded-2xl backdrop-blur-sm">
+              <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-green-500/10 p-3">
+                <svg
+                  className="h-8 w-8 fill-green-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                </svg>
+              </div>
+              <h3 className="mb-3 font-nacelle text-xl font-semibold text-gray-200">
+                Transparent Currency Exchange
+              </h3>
+              <p className="text-base text-green-200/65">
+                Real-time exchange rates with full transparency. See exactly how much your money will be worth before you send—no hidden fees or surprises.
+              </p>
+            </article>
+
+            {/* Simple and Secure Sign-In */}
+            <article className="relative flex flex-col p-6 bg-gray-900/50 rounded-2xl backdrop-blur-sm">
+              <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-green-500/10 p-3">
+                <svg
+                  className="h-8 w-8 fill-green-500"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 2.18l7 3.12v4.7c0 4.38-2.85 8.51-7 9.79-4.15-1.28-7-5.42-7-9.79V6.3l7-3.12z"/>
-                  <path d="M12 6a3 3 0 0 0-3 3c0 1.31.84 2.42 2 2.83V14h2v-2.17c1.16-.41 2-1.52 2-2.83a3 3 0 0 0-3-3zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
                 </svg>
               </div>
               <h3 className="mb-3 font-nacelle text-xl font-semibold text-gray-200">
-                E-KYC
+                Simple and Secure Sign-In
               </h3>
-              <ul className="mt-2 space-y-3 text-base md:text-lg text-indigo-200/65">
-                <li className="flex items-start">
-                  <span className="mr-2 mt-2 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  Biometric Fingerprint Matching
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  Fraud Prevention & Enhanced Security
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  AI based persona identification
-                </li>
-              </ul>
+              <p className="text-base text-green-200/65">
+                No complicated passwords needed. Sign in securely using your existing Google account, making it easy to get started while keeping your financial information protected.
+              </p>
             </article>
 
-            {/* AI Marketing */}
+            {/* Verified Safety */}
             <article className="relative flex flex-col p-6 bg-gray-900/50 rounded-2xl backdrop-blur-sm">
-              <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-indigo-500/10 p-3">
+              <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-green-500/10 p-3">
                 <svg
-                  className="h-8 w-8 fill-indigo-500"
+                  className="h-8 w-8 fill-green-500"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6h-6z"/>
+                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.5 1.414-1.414 3.085 3.085 6.827-6.827 1.414 1.414-8.24 8.242z"/>
                 </svg>
               </div>
               <h3 className="mb-3 font-nacelle text-xl font-semibold text-gray-200">
-                AI Marketing Solutions
+                Verified Safety (Digital KYC)
               </h3>
-              <ul className="space-y-3 text-lg text-indigo-200/65">
-                <li className="flex items-start font-medium text-indigo-400">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  30% Reduction in Sales Cycles
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  Automated Social Media Management
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  AI based Lead Generation 
-                </li>
-                
-              </ul>
+              <p className="text-base text-green-200/65">
+                Keep your transactions safe and compliant with international regulations. Our quick digital verification process ensures every transfer is secure and legal.
+              </p>
             </article>
 
-            {/* Finance */}
+            {/* 24/7 Digital Access */}
             <article className="relative flex flex-col p-6 bg-gray-900/50 rounded-2xl backdrop-blur-sm">
-              <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-indigo-500/10 p-3">
+              <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-green-500/10 p-3">
                 <svg
-                  className="h-8 w-8 fill-indigo-500"
+                  className="h-8 w-8 fill-green-500"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/>
+                  <path d="M11.99 5c-4.41 0-8 3.59-8 8s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm.5-10H11V6h1v3zm3.54 2.27l-.7-.7-2.12 2.12.7.7 2.12-2.12z"/>
                 </svg>
               </div>
               <h3 className="mb-3 font-nacelle text-xl font-semibold text-gray-200">
-                Financial Management
+                24/7 Digital Access
               </h3>
-              <ul className="space-y-3 text-lg text-indigo-200/65">
-                <li className="flex items-start font-medium text-indigo-400">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  50% reduction in time spent on financial tasks
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  Automated Tax & VAT Document Generation
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  Personalized Financial Recommendations
-                </li>
-              </ul>
-            </article>
-
-            {/* Calling Solutions */}
-            <article className="relative flex flex-col p-6 bg-gray-900/50 rounded-2xl backdrop-blur-sm">
-              <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-indigo-500/10 p-3">
-                <svg
-                  className="h-8 w-8 fill-indigo-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.074 15.074 0 0 1-6.59-6.59l2.2-2.21c.27-.26.35-.65.24-1.02A11.3 11.3 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM12 3v10l3-3h6V3h-9z"/>
-                </svg>
-              </div>
-              <h3 className="mb-3 font-nacelle text-xl font-semibold text-gray-200">
-                Communication Services
-              </h3>
-              <ul className="space-y-3 text-lg text-indigo-200/65">
-                <li className="flex items-start font-medium text-indigo-400">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  60% reduction in service response time
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  Integration with CRM Systems
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2 mt-1 h-4 w-4 shrink-0 rounded-full border border-indigo-500"></span>
-                  Analytics for Service Improvement
-                </li>
-              </ul>
+              <p className="text-base text-green-200/65">
+                Send money anytime, anywhere. Our mobile-friendly platform is available around the clock—no need to visit a physical exchange office.
+              </p>
             </article>
           </div>
         </div>
